@@ -19,7 +19,7 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Setup Env
-      run: mkdir /output
+      run: mkdir ./output
     - name: Define CI version
       run: echo ::set-env name=NUPKG_VER::$NUPKG_MAJOR-pre$GITHUB_RUN_ID
     - name: Define Release Version
