@@ -57,4 +57,4 @@ jobs:
             nuget-api-key: ${{ secrets.NUGET_API_KEY }}
             nuget-version: 'latest'
         - name: Push NuGet
-          run: nuget push NuGet\*.nupkg -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.NUGET_ORG_API_KEY }}
+          run: nuget push NuGet\*.nupkg -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.NUGET_API_KEY }}
