@@ -19,7 +19,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AppCenter.Crashes" Version="3.2.1" />
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="3.2.1" />
-    <PackageReference Include="ReactiveUI" Version="11.3.8" />
+    <PackageReference Include="ReactiveUI" Version="11.4.1" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Helpers\" />
